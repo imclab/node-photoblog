@@ -1,0 +1,93 @@
+body {
+	background-color: #31363C;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
+}
+
+.title2 {
+	color: #CC9900;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.title3 {
+	color: #CCCCCC;
+	font-size. 20px;
+}
+
+#head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	background-color: #CC9900;
+	height: 10px;
+}
+
+
+#title {
+	margin-top: 100px;
+	border-bottom:1px solid #CCCCCC;
+	width: 1100px;
+}
+#title h1 {
+	color: #EEEEEE;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	width: 500px;
+	position: relative;
+	left: 100px;
+	top: 20px;
+}
+#title b {
+	color: #CCCCCC;
+	position: relative;
+	left: 90%
+}
+
+#title b a {
+	color:  #CCCCCC;
+	text-decoration: none;
+}
+
+#title b a:hover {
+	color: #33CC33;
+}
+#content {
+	position: relative;
+	top: -70px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#section {
+	clear: both;
+	padding-top: 100px;
+}
+
+.circle {
+	border-radius: 50px/50px;
+	border: solid 2px #CCCCCC; 
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+#content #right {
+	position: relative;
+	top: -10px;
+	margin-left: 100px;
+	clear: both;
+	margin-bottom: 100px;
+}
+#content img {
+	max-width: 400px;
+}
+
+#content #section a img {
+	display: block;
+	float: left;
+	max-width: 200px;
+}
+

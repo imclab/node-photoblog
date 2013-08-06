@@ -1,0 +1,27 @@
+{
+  "name": "node-thumbnail",
+  "version": "1.0.0",
+  "description": "thumbnail all the things",
+  "author": {
+    "name": "Lorenz Schmidt"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./server.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/honza/node-thumbnail.git"
+  },
+  "dependencies": {
+	"browserify": ">= 2.25.1",
+    "uglify-js": ">= 2.3.6",
+    "jquery-browserify": ">= 1.8.1",
+	"express": ">= 3.3.4"
+  }
+}
